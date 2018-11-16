@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/searchbook/searchbook",
+    "pages/comment/comment"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#d22222",
+    "navigationBarTitleText": "蛋糕读书",
+    "navigationBarTextStyle":"light",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#d22222"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"img/book.png",
+        "selectedIconPath":"img/book-active.png"
+      },
+      {
+        "pagePath": "pages/comment/comment",
+        "text": "评论",
+        "iconPath": "img/todo.png",
+        "selectedIconPath": "img/todo-active.png"
+      },
+      {
+        "pagePath": "pages/searchbook/searchbook",
+        "text": "搜索",
+        "iconPath": "img/other.png",
+        "selectedIconPath": "img/other-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我",
+        "iconPath": "img/me.png",
+        "selectedIconPath": "img/me-active.png"
+      }
+    ],
+    "color":"#d22222"
+  }
+}
